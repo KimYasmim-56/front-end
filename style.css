@@ -1,0 +1,41 @@
+style.css
+
+div {
+    border: 2px solid red;
+    width: 35%;
+}
+
+div:hover {
+    color: orange;
+}
+
+.ativo:active {
+    color: green;
+}
+
+.visitado:visited {
+    color: orange;
+}
+input:focus{
+    background-color: pink;
+}
+
+/* li:first-child {
+    color: purple;
+}
+
+li:last-child {
+    color: red;
+}
+
+li:nth-child(2n+2) {
+    color: green;
+} */
+
+li {
+    color: orange;
+}
+
+li:not(.meu-item) {
+    color: black;
+}
