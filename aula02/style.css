@@ -1,0 +1,61 @@
+h1{
+    color: red;
+}
+ 
+:checked {
+    margin-left: 25px;
+}
+ 
+input[type="radio"]:checked{
+    margin-left: 25px;
+}
+ 
+option:checked{
+    color: red;
+}
+ 
+input[type="text"]:disabled{
+    background-color: #ccc;
+}
+ 
+input:required{
+    background-color: red;
+}
+ 
+input[type="email"]:invalid {
+    background: orange;
+}
+ 
+input[type="email"]:valid {
+    background: green;
+}
+
+/* pseudo-elementos */
+
+::placeholder  {
+    color: rgb(6,159,197)
+}
+
+.meu-paragrafo::first-letter {
+   color: red;
+   text-transform: uppercase;
+}
+
+.meu-paragrafo::first-line {
+    color: blue;
+}
+
+.meu-paragrafo::selection {
+    color:red;  
+    background: yellow;
+}
+
+::marker {
+    color: red;
+    font-size: 24px;
+}
+
+.itens::marker {
+    color: blue;
+    font-size: 36px;
+}
